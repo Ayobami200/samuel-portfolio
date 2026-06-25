@@ -11,7 +11,7 @@ const services = [
 
 export default function Contact() {
     return (
-        <section id="contact" className="py-32">
+        <section id="contact" className="py-16 md:py-20">
             <Container>
 
                 <div className="rounded-3xl border border-white/10 bg-white/[0.03] p-10 md:p-16">

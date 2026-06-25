@@ -40,7 +40,7 @@ export default function Skills() {
     return (
         <section
             id="skills"
-            className="py-32"
+            className="py-16 md:py-32"
         >
             <Container>
                 <div className="mb-16 text-center">

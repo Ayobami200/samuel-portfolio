@@ -8,17 +8,17 @@ export default function Hero() {
       <div className="absolute left-[70%] top-1/2 h-[800px] w-[800px] -translate-y-1/2 rounded-full bg-violet-600/10 blur-3xl" />
 
       <Container>
-        <div className="grid min-h-[90vh] items-center gap-8 lg:grid-cols-[1fr_1fr]">
+        <div className="grid min-h-auto items-center gap-6 pt-6 lg:min-h-[90vh] lg:grid-cols-[1fr_1fr]">
 
           {/* LEFT SIDE */}
           <div className="relative z-10 max-w-3xl">
-            <div className="mb-8 inline-flex items-center rounded-full border border-violet-500/20 bg-violet-500/10 px-5 py-2">
+            <div className="mb-5 inline-flex items-center rounded-full border border-violet-500/20 bg-violet-500/10 px-4 py-1.5 md:mb-8 md:px-5 md:py-2">
               <span className="text-sm font-medium text-violet-300">
                 ✨ Full Stack Developer & AI Product Builder
               </span>
             </div>
 
-            <h1 className="text-5xl font-bold leading-[1.05] tracking-tight md:text-6xl xl:text-7xl">
+            <h1 className="text-4xl font-bold leading-[1.1] tracking-tight md:text-6xl xl:text-7xl">
               Building{" "}
               <span className="bg-gradient-to-r from-violet-400 to-purple-200 bg-clip-text text-transparent">
                 Intelligent
@@ -29,7 +29,7 @@ export default function Hero() {
               Modern Businesses
             </h1>
 
-            <p className="mt-8 max-w-2xl text-lg leading-8 text-slate-400">
+            <p className="mt-5 max-w-2xl text-base leading-7 text-slate-400 md:mt-8 md:text-lg md:leading-8">
               I design and develop scalable web applications,
               AI-powered products, and business software that help
               organizations automate workflows, streamline
@@ -40,16 +40,16 @@ export default function Hero() {
             <div className="mt-10 flex flex-wrap gap-4">
               <a
                 href="#projects"
-                className="rounded-xl bg-violet-600 px-8 py-4 font-medium transition hover:bg-violet-500"
+                className="rounded-xl bg-violet-600 px-6 py-3 md:px-8 md:py-4"
               >
                 View Projects
               </a>
             </div>
 
             {/* Stats */}
-            <div className="mt-16 flex flex-wrap gap-12">
+            <div className="mt-8 grid grid-cols-2 gap-6 md:mt-16 md:flex md:flex-wrap md:gap-12">
               <div>
-                <h3 className="text-3xl font-bold">
+                <h3 className="text-xl font-bold md:text-3xl">
                   Full Stack
                 </h3>
 
@@ -85,10 +85,10 @@ export default function Hero() {
           <div className="relative flex items-center justify-center">
 
             {/* Portrait Glow */}
-            <div className="absolute h-[650px] w-[650px] rounded-full bg-violet-500/10 blur-3xl" />
+            <div className="absolute h-[300px] w-[300px] rounded-full bg-violet-500/10 blur-3xl md:h-[650px] md:w-[650px]" />
 
             {/* Image Container */}
-            <div className="relative h-[850px] w-full max-w-[650px]">
+            <div className="relative h-[420px] w-full max-w-[300px] md:h-[850px] md:max-w-[650px]">
 
               <Image
                 src="/images/samuel-hero.png"
@@ -100,7 +100,7 @@ export default function Hero() {
               />
               {/* Floating Skill Tags */}
 
-              <div className="absolute left-0 top-24 rounded-xl border border-white/10 bg-[#0d1224]/90 px-4 py-3 backdrop-blur-sm">
+              <div className="hidden md:block absolute left-0 top-24 ...">
                 <span className="text-sm font-medium">
                   FastAPI
                 </span>

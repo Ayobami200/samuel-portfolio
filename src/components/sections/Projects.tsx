@@ -40,7 +40,7 @@ export default function Projects() {
     }, []);
 
     return (
-        <section id="projects" className="py-32">
+        <section id="projects" className="py-16 md:py-32">
             <Container>
                 <div className="mb-16">
                     <p className="mb-4 font-medium text-violet-400">

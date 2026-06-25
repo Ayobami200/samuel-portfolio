@@ -4,7 +4,7 @@ export default function About() {
     return (
         <section
             id="about"
-            className="py-32 border-t border-white/5"
+            className="py-16 md:py-32"
         >
             <Container>
                 <div className="grid gap-16 lg:grid-cols-2">
